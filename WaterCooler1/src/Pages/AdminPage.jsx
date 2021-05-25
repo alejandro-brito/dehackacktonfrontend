@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ReactTable from 'react-table-6'
-import "react-table-6/react-table.css";  
+import "react-table-6/react-table.css";
+import "./HomePage.css"
 import apis from '../Api/index'
 import styled from 'styled-components'
 import CreateDepartment from './CreateDepartment'
@@ -100,16 +101,18 @@ class AdminPage extends Component {
             },
         }]
         return (
-            <div>
+            <div align="center">
+            <h1>Departments</h1>
+            <div className="container">
                 <ReactTable
                         data={departments}
                         columns={columns}
                         defaultPageSize={10}
                         pageSizeOptions={[2,4,6,10]}
                     />
+                </div>
                 <CreateDepartment />
                 <Link to="/" className="home-button">Homepage</Link>
-                
             </div>
         )
     }
