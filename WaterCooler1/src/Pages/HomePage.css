@@ -8,6 +8,18 @@
   grid-gap: 3rem;
 }
 
+.container {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #EEEEEE;
+  border: 0.15rem solid #d0cfcf;
+  height: 30rem;
+  width: 40rem;
+  max-width: 40rem;
+  max-height: 40rem;
+  
+}
+
 .admin-button {
   height: 2rem;
   width: 6rem;
