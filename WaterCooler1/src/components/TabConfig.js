@@ -45,7 +45,7 @@ class TabConfig extends React.Component {
         <div align="center">
           <h1>Welcome to Water Cooler!</h1>
           <img src={logo} alt="Water Cooler Logo"/>
-          <div className="container">
+          <div className="container1">
             <p>Water Cooler's goal is to make geographically distributed teams feel more connected. At a quick glimpse, members of an organization can look at the Water Cooler app and see everyone in their organization, the departments/groups they belong to, and a customizable description of someone. It allows members to connect a name to a person very quickly and learn about them, all in a single app!</p>           
             <p>After closing this tab, go to the login page by clicking the "Admin" button. After logging in, click the "Create Department" button in the lower right corner. This app automatically creates a list using this current team's roster. When you're finished creating departments, click the "Homepage" button. If you ever need to add/delete/update your departments, just head to the admin page. <br /> (first time admin login credentials [username:root pass:Hack.Diversity])</p>
           </div>
