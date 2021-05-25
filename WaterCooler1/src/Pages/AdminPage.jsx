@@ -4,6 +4,7 @@ import "react-table-6/react-table.css";
 import apis from '../Api/index'
 import styled from 'styled-components'
 import CreateDepartment from './CreateDepartment'
+import { Link } from 'react-router-dom'
 
 const Delete = styled.div`
     color: #ff0000;
@@ -107,6 +108,7 @@ class AdminPage extends Component {
                         pageSizeOptions={[2,4,6,10]}
                     />
                 <CreateDepartment />
+                <Link to="/" className="home-button">Homepage</Link>
                 
             </div>
         )
